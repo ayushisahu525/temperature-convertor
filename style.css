@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+.box{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(61, 2, 46);
+    /* background-color: #fbbdaf; */
+    display: grid;
+    place-items: center;
+}
+
+
+form {
+    background-color: #9c328c;
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#tempCalculator label {
+    font-size: 40px;
+}
+
+#temp {
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#temperature {
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+[type="submit"] {
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(61, 2, 46);
+    color: white;
+}
+
+[type="submit"]:hover{
+    border: 2px solid black;
+}
+
+#tempconvertor {
+    font-size: 35px;
+    color:white;
+}
